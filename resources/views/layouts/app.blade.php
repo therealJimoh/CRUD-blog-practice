@@ -28,7 +28,7 @@
                 <a class="no-underline hover:underline" href="/">Home</a>
                 <a class="no-underline hover:underline" href="/blog">Blog</a>
                 @guest
-                        <a cl  ass="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
                             <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
