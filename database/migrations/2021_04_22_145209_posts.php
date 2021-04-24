@@ -13,7 +13,7 @@ class Posts extends Migration
      */
     public function up()
     {
-        Schema::create('post', function(Blueprint $table){
+        Schema::create('posts', function(Blueprint $table){
             $table->increments('id');
             $table->string('slug');
             $table->string('title');

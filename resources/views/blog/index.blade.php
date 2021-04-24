@@ -9,6 +9,8 @@
     </div>
 </div>
 
+{{ $posts }}
+
 <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
         <img src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822__180.jpg" width="700" alt="">
@@ -17,7 +19,7 @@
         <h2 class="text-gray-700 font-bold text-5xl pb-4">
             Learn how to write Laravel code.
         </h2>
-        
+
         <span class="text-gray-500">
             By <span class="font-bold italic text-gray-800">The Author</span>, 1 day ago
         </span>
